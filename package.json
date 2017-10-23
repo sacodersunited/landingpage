@@ -15,11 +15,8 @@
   },
   "devDependencies": {
     "bootstrap": "4.0.0-beta",
-<<<<<<< HEAD
-    "reactstrap": "^5.0.0-alpha.3"
-=======
     "reactstrap": "^5.0.0-alpha.3",
     "styled-components": "^2.2.1"
->>>>>>> 3f76d5d4d85b297700a5716366afd275e0635255
+
   }
 }

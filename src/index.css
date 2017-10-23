@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-=======
+
   color: #95989A;
 }
 
@@ -17,7 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .lead-p-hr {
   margin-bottom: -48px;
->>>>>>> 3f76d5d4d85b297700a5716366afd275e0635255
 }
 
 .row {
