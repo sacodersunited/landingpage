@@ -9,6 +9,19 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import styled from "styled-components";
+import flag from "../img/flag.png";
+
+const fadedWhite = "rgba(255, 255, 255, 0.75)";
+
+const StyledJumbotron = styled(Jumbotron)`
+  background-image: url(${flag});
+  background-size: cover;
+  color: ${fadedWhite};
+  h1 {
+    color: white;
+  }
+`;
 
 class Header extends React.Component {
   constructor(props) {
@@ -26,11 +39,11 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <Jumbotron className="text-center">
+      <StyledJumbotron className="text-center flag-bg">
         <h1 className="display-3">sacodersunited</h1>
         <p className="lead">vets who code</p>
 
-        <Navbar color="faded" light expand="md">
+        <Navbar color="faded" dark expand="md">
           <NavbarBrand href="/">sacodersunited</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -50,7 +63,7 @@ class Header extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </Jumbotron>
+      </StyledJumbotron>
     );
   }
 }
