@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 
 const Values = () => (
   <Row>
-    <Col>
+    <Col xs="6" md="3">
       <h4>HONOR</h4>
       <p>
         moon williamsburg bicycle rights, brunch food truck master cleanse wolf
@@ -11,7 +11,7 @@ const Values = () => (
         organic authentic mumblecore.
       </p>
     </Col>
-    <Col>
+    <Col xs="6" md="3">
       <h4>RESPECT</h4>
       <p>
         moon williamsburg bicycle rights, brunch food truck master cleanse wolf
@@ -19,7 +19,7 @@ const Values = () => (
         organic authentic mumblecore.
       </p>
     </Col>
-    <Col>
+    <Col xs="6" md="3">
       <h4>LOYALTY</h4>
       <p>
         moon williamsburg bicycle rights, brunch food truck master cleanse wolf
@@ -27,7 +27,7 @@ const Values = () => (
         organic authentic mumblecore.
       </p>
     </Col>
-    <Col>
+    <Col xs="6" md="3">
       <h4>DEDICATION</h4>
       <p>
         moon williamsburg bicycle rights, brunch food truck master cleanse wolf

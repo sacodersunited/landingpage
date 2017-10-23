@@ -1,12 +1,10 @@
 import React from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
-import LeadParagraph from "./LeadParagraph";
 
 // TODO: Post Form to Google Sheets to track messages
 
 const ContactForm = () => (
   <Form>
-    <LeadParagraph title="Contact Us" details="Send us a message." />
     <FormGroup>
       <Label for="name">Full Name</Label>
       <Input type="text" name="name" id="name" placeholder="John Doe" />
