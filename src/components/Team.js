@@ -9,7 +9,7 @@ import {
   CardTitle,
   CardSubtitle
 } from "reactstrap";
-import frank from "../img/fpigeonjr-profile.png";
+import frank from "../img/frank.jpg";
 import paul from "../img/pcast-profile.png";
 
 const Team = props => (
@@ -19,10 +19,15 @@ const Team = props => (
         <CardImg top width="100%" src={frank} alt="Card image cap" />
         <CardBody>
           <CardTitle>Frank Pigeon</CardTitle>
-          <CardSubtitle>@fpigeonjr</CardSubtitle>
+          <a
+            href="https://twitter.com/fpigeonjr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CardSubtitle>@fpigeonjr</CardSubtitle>
+          </a>
           <CardText>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            U.S. Army veteran. Web Designer and Frontend Developer. Founder.
           </CardText>
         </CardBody>
       </Card>
