@@ -1,6 +1,35 @@
 import React from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
-import LeadParagraph from "./LeadParagraph";
+import { Alert } from "reactstrap";
+
+class AlertForm extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      visible: true
+    };
+
+    this.onDismiss = this.onDismiss.bind(this);
+  }
+
+  onDismiss() {
+    this.setState({ visible: false });
+  }
+
+  render() {
+    return (
+      <Alert
+        color="success"
+        isOpen={this.state.visible}
+        toggle={this.onDismiss}
+      >
+        <em>Thanks</em> for sending us a message. Someone from our team will
+        contact you shortly.
+      </Alert>
+    );
+  }
+}
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -66,14 +95,7 @@ class ContactForm extends React.Component {
 
     if (!this.state.requestFailed) {
       this.setState({
-        thankyou: (
-          <div>
-            <h2>
-              <em>Thanks</em> for filling out our test form! We will get back to
-              you soon!
-            </h2>
-          </div>
-        )
+        thankyou: <AlertForm />
       });
       this.setState({
         name: "",
@@ -90,6 +112,7 @@ class ContactForm extends React.Component {
 
     return (
       <Form id="gform" onSubmit={this.handleSubmit}>
+        {this.state.thankyou}
         <FormGroup>
           <Label for="name">Full Name</Label>
           <Input
@@ -97,8 +120,9 @@ class ContactForm extends React.Component {
             name="name"
             id="name"
             value={name}
-            placeholder="John Doe"
+            placeholder="George Patton"
             onChange={this.onChange}
+            required
           />
         </FormGroup>
         <FormGroup>
@@ -108,8 +132,9 @@ class ContactForm extends React.Component {
             name="email"
             id="email"
             value={email}
-            placeholder="john.doe@email.com"
+            placeholder="george.patton@mail.mil"
             onChange={this.onChange}
+            required
           />
         </FormGroup>
 
@@ -119,15 +144,14 @@ class ContactForm extends React.Component {
             type="textarea"
             name="message"
             id="message"
-            placeholder="message here"
+            placeholder="Live for something rather than die for nothing."
             value={message}
             onChange={this.onChange}
+            required
           />
         </FormGroup>
 
-        {this.state.thankyou}
         <Button>Submit</Button>
-        <label id="thanks" />
       </Form>
     );
   }
