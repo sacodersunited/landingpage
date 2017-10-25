@@ -45,21 +45,21 @@ class Header extends React.Component {
         <p className="lead">vets who code</p>
 
         <Navbar color="faded" dark expand="md">
-          <NavbarBrand href="/">sacodersunited</NavbarBrand>
+          <NavbarBrand href="#">sacodersunited</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">About</NavLink>
+                <NavLink href="#about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Services</NavLink>
+                <NavLink href="#services">Services</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Team</NavLink>
+                <NavLink href="#team">Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Contact</NavLink>
+                <NavLink href="#contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
