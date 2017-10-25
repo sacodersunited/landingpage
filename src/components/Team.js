@@ -39,8 +39,7 @@ const Team = props => (
           <CardTitle>Paul Castillo</CardTitle>
           <CardSubtitle>@pcast01</CardSubtitle>
           <CardText>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            U.S. Air Force veteran. Web Developer and Founder.
           </CardText>
         </CardBody>
       </Card>
