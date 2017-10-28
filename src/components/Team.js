@@ -37,7 +37,13 @@ const Team = props => (
         <CardImg top width="100%" src={paul} alt="Card image cap" />
         <CardBody>
           <CardTitle>Paul Castillo</CardTitle>
-          <CardSubtitle>@pcast01</CardSubtitle>
+          <a
+            href="https://twitter.com/pcast01"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CardSubtitle>@pcast01</CardSubtitle>
+          </a>
           <CardText>
             U.S. Air Force veteran. Web Developer and Founder.
           </CardText>

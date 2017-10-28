@@ -17,21 +17,21 @@ class App extends Component {
           <section id="about" />
           <LeadParagraph
             title="Who We Are"
-            details="Pour-over intelligentsia yr banjo hot chicken health goth man braid ramps fingerstache. Hell of offal enamel pin occupy snackwave 3 wolf moon af heirloom normcore man bun bitters. Mumblecore copper mug before they sold out artisan direct trade. Lyft cardigan ennui dreamcatcher. Single-origin coffee tattooed dreamcatcher blue bottle green juice slow-carb hot chicken occupy venmo. "
+            details="We build custom web solutions to enable small businesses gain exposure online. We are coders. We are designers. We love open source. We have served our country and continue to serve. We are sacodersunited."
           />
           <Values />
 
           <section id="services" />
           <LeadParagraph
             title="Services"
-            details="Listicle tumblr cold-pressed distillery freegan squid tote bag umami neutra cloud bread ethical vaporware hexagon mixtape meditation. +1 sustainable bitters tacos. VHS retro venmo, succulents wayfarers squid umami pickled banjo bicycle rights street art. Brunch typewriter cliche, offal put a bird on it paleo dreamcatcher 90's meditation distillery crucifix irony prism."
+            details="We offer a variety of solutions for all budgets. Whether it is a single page information site to a fully featured web application sacodersunited can make it happen."
           />
           <Services />
 
           <section id="team" />
           <LeadParagraph
             title="Team"
-            details="Pour-over intelligentsia yr banjo hot chicken health goth man braid ramps fingerstache. Hell of offal enamel pin occupy snackwave 3 wolf moon af heirloom normcore man bun bitters. "
+            details="Band members have a special bond. A great band is more than just some people working together. It's like a highly specialized army unit, or a winning sports team. A unique combination of elements that becomes stronger together than apart. - Steven Van Zandt"
           />
           <Team />
 
