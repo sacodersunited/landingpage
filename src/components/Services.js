@@ -52,9 +52,10 @@ const Services = () => (
       </Description>
       <hr />
       <ul>
-        <li>Content Management System</li>
+        <li>Content Management</li>
         <li>Hosting</li>
         <li>Deployment</li>
+        <li>Ecommerce</li>
       </ul>
     </Col>
   </Row>
