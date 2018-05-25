@@ -21,6 +21,13 @@ const StyledJumbotron = styled(Jumbotron)`
   h1 {
     color: white;
   }
+  @media (max-width: 575.98px) {
+    h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  }
 `;
 
 class Header extends React.Component {

@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "sacodersunited",
+    "short_name": "sacoders",
     "icons": [
         {
             "src": "/android-chrome-144x144.png",
@@ -8,7 +8,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
 }
