@@ -25,7 +25,7 @@ const BgBox = styled.div`
 
 const Services = () => (
   <Row className="row justify-content-between">
-    <Col xs="10" md="3">
+    <Col xs={{ size: 12 }} md="4">
       <h4>
         <FaPaintBrush size="30" /> Web Design
       </h4>
@@ -44,7 +44,7 @@ const Services = () => (
       </BgBox>
     </Col>
 
-    <Col xs="10" md="3">
+    <Col xs={{ size: 12 }} md="4">
       <h4>
         <FaTrophy size="30" /> Branding
       </h4>
@@ -62,7 +62,7 @@ const Services = () => (
       </BgBox>
     </Col>
 
-    <Col xs="10" md="3">
+    <Col xs={{ size: 12 }} md="4">
       <h4>
         <FaFirefox size="30" /> Web Development
       </h4>
