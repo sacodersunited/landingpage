@@ -5,10 +5,10 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => (
   <Row>
-    <Col>
-      <img src={laptop} alt="laptop" />
+    <Col xs="12" md="6">
+      <img class="img-fluid" src={laptop} alt="laptop" />
     </Col>
-    <Col>
+    <Col xs="12" md="6">
       <h1 className="text-center">Contact Us</h1>
       <Row className="justify-content-center">
         <Col xs="2">

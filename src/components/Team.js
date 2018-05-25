@@ -14,7 +14,7 @@ import paul from "../img/pcast-profile.png";
 
 const Team = props => (
   <Row className="row justify-content-around">
-    <Col sm="4">
+    <Col xs="10" md="4">
       <Card>
         <CardImg top width="100%" src={frank} alt="Card image cap" />
         <CardBody>
@@ -32,7 +32,7 @@ const Team = props => (
         </CardBody>
       </Card>
     </Col>
-    <Col sm="4">
+    <Col xs="10" md="4">
       <Card>
         <CardImg top width="100%" src={paul} alt="Card image cap" />
         <CardBody>

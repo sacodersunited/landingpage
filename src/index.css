@@ -1,13 +1,17 @@
 body {
-
-  color: #95989A;
+  color: #95989a;
 }
 
 hr {
-  background-color: #FFD530;
+  background-color: #ffd530;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #403116;
 }
 
@@ -17,4 +21,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .row {
   margin-bottom: 48px;
+}
+
+section {
+  margin-top: 64px;
+}
+
+.thick-hr {
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
 }

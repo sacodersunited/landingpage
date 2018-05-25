@@ -4,7 +4,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink
@@ -45,7 +44,6 @@ class Header extends React.Component {
         <p className="lead">vets who code</p>
 
         <Navbar color="faded" dark expand="md">
-          <NavbarBrand href="#">sacodersunited</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
