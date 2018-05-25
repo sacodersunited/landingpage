@@ -6,7 +6,7 @@ import FaFirefox from "react-icons/lib/fa/firefox";
 import styled from "styled-components";
 
 const Description = styled.p`
-  min-height: 120px;
+  min-height: 130px;
   margin-top: 0;
   margin-bottom: 1rem;
   border: 1px solid grey;
@@ -26,10 +26,10 @@ const BgBox = styled.div`
 const Services = () => (
   <Row className="row justify-content-between">
     <Col xs={{ size: 12 }} md="4">
-      <h4>
-        <FaPaintBrush size="30" /> Web Design
-      </h4>
       <Description>
+        <h4>
+          <FaPaintBrush size="30" /> Web Design
+        </h4>
         Design is paying attention to detail and letting no detail be
         overlooked.
       </Description>
@@ -45,10 +45,10 @@ const Services = () => (
     </Col>
 
     <Col xs={{ size: 12 }} md="4">
-      <h4>
-        <FaTrophy size="30" /> Branding
-      </h4>
       <Description>
+        <h4>
+          <FaTrophy size="30" /> Branding
+        </h4>
         Branding is important for your project to reflect who you are and make
         the biggest impact to your target audience.
       </Description>
@@ -63,10 +63,10 @@ const Services = () => (
     </Col>
 
     <Col xs={{ size: 12 }} md="4">
-      <h4>
-        <FaFirefox size="30" /> Web Development
-      </h4>
       <Description>
+        <h4>
+          <FaFirefox size="30" /> Web Development
+        </h4>
         We have to know how to bring your ideas to life using the latest
         technologies and frameworks.
       </Description>
