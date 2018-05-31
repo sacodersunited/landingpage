@@ -2,9 +2,9 @@
 
 ## Project Details
 
- `ContactForm` posts to this [Google Sheet](https://docs.google.com/spreadsheets/d/13YyzPiLIGZp2vFUpWeHeLiLIb0VfpBV8mlv6r2B5Q3g/edit#gid=0)
+`ContactForm` posts to this [Google Sheet](https://docs.google.com/spreadsheets/d/13YyzPiLIGZp2vFUpWeHeLiLIb0VfpBV8mlv6r2B5Q3g/edit#gid=0)
 
- Development Server Link [https://sacodersunited.github.io/landingpage/](https://sacodersunited.github.io/landingpage/)
+Development Server Link [https://sacodersunited.github.io/landingpage/](https://sacodersunited.github.io/landingpage/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
