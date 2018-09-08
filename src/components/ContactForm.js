@@ -114,7 +114,7 @@ class ContactForm extends React.Component {
       <Form id="gform" onSubmit={this.handleSubmit}>
         {this.state.thankyou}
         <FormGroup>
-          <Label for="name">Full Name</Label>
+          <Label for="name">Full Name*</Label>
           <Input
             type="text"
             name="name"
@@ -126,7 +126,7 @@ class ContactForm extends React.Component {
           />
         </FormGroup>
         <FormGroup>
-          <Label for="email">Email</Label>
+          <Label for="email">Email*</Label>
           <Input
             type="email"
             name="email"
@@ -139,7 +139,7 @@ class ContactForm extends React.Component {
         </FormGroup>
 
         <FormGroup>
-          <Label for="message">Message</Label>
+          <Label for="message">Message*</Label>
           <Input
             type="textarea"
             name="message"
@@ -151,7 +151,7 @@ class ContactForm extends React.Component {
           />
         </FormGroup>
 
-        <Button>Submit</Button>
+        <Button className="btn-primary">Submit</Button>
       </Form>
     );
   }

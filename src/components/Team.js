@@ -9,14 +9,20 @@ import {
   CardTitle,
   CardSubtitle
 } from "reactstrap";
+import styled from 'styled-components';
 import frank from "../img/frank.jpg";
-import paul from "../img/pcast-profile.png";
+import paul from "../img/paul.jpg";
+
+const ImgCardStyle = styled(CardImg)`
+  height: 340px;
+  object-fit: cover;
+`
 
 const Team = props => (
   <Row className="row justify-content-around">
     <Col xs="10" md="4">
       <Card>
-        <CardImg top width="100%" src={frank} alt="Card image cap" />
+        <ImgCardStyle top width="100%" src={frank} alt="Frank's profile" />
         <CardBody>
           <CardTitle>Frank Pigeon</CardTitle>
           <a
@@ -34,7 +40,7 @@ const Team = props => (
     </Col>
     <Col xs="10" md="4">
       <Card>
-        <CardImg top width="100%" src={paul} alt="Card image cap" />
+        <ImgCardStyle top width="100%" src={paul} alt="Paul's profile" />
         <CardBody>
           <CardTitle>Paul Castillo</CardTitle>
           <a
@@ -47,6 +53,7 @@ const Team = props => (
           <CardText>
             U.S. Air Force veteran. Web Developer and Founder.
           </CardText>
+
         </CardBody>
       </Card>
     </Col>

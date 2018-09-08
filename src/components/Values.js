@@ -6,7 +6,7 @@ const Values = () => (
   <Row>
     <Col xs="12" md="3">
       <h4>
-        <FaAngleDoubleUp color="#FFD530" size="40" />HONOR
+        <FaAngleDoubleUp color="var(--yellow)" size="40" />HONOR
       </h4>
       <p>
         People who develop the habit of being honorable solidify that habit with
@@ -18,7 +18,7 @@ const Values = () => (
 
     <Col xs="12" md="3">
       <h4>
-        <FaAngleDoubleUp color="#FFD530" size="40" />RESPECT
+        <FaAngleDoubleUp color="var(--yellow)" size="40" />RESPECT
       </h4>
       <p>
         Treat people as they should be treated. In the Soldier’s Code, we pledge
@@ -30,7 +30,7 @@ const Values = () => (
 
     <Col xs="12" md="3">
       <h4>
-        <FaAngleDoubleUp color="#FFD530" size="40" />LOYALTY
+        <FaAngleDoubleUp color="var(--yellow)" size="40" />LOYALTY
       </h4>
       <p>
         Bearing true faith and allegiance is a matter of believing in and
@@ -41,7 +41,7 @@ const Values = () => (
 
     <Col xs="12" md="3">
       <h4>
-        <FaAngleDoubleUp color="#FFD530" size="40" />DUTY
+        <FaAngleDoubleUp color="var(--yellow)" size="40" />DUTY
       </h4>
       <p>
         Fulfill your obligations. Duty means being able to accomplish tasks as

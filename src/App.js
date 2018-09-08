@@ -7,11 +7,13 @@ import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Container } from "reactstrap";
+import GlobalStyles from './GlobalStyles'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <GlobalStyles/>
         <Header />
         <Container>
           <section id="about" />
