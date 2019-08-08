@@ -69,10 +69,18 @@ const Team = props => (
           <CardText>
             U.S. Air Force veteran. Web Developer and Founder.
             <br /> <br />
-            <a href="https://twitter.com/pcast01">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/pcast01"
+            >
               <FaTwitter size="20" className="mr-3" />
             </a>
-            <a href="https://pcast01.github.io/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://pcast01.github.io/"
+            >
               <FaCloud size="20" />
             </a>
           </CardText>
