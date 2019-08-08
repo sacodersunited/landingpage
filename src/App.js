@@ -15,20 +15,24 @@ class App extends Component {
       <div className="App">
         <GlobalStyles/>
         <Header />
+        <LeadParagraph
+          id="about"
+          title="Who We Are"
+          details="We build custom web solutions to enable small businesses gain exposure online. We are coders. We are designers. We love open source. We have served our country and continue to serve. We are sacodersunited."
+        />
         <Container>
-          <section id="about" />
-          <LeadParagraph
-            title="Who We Are"
-            details="We build custom web solutions to enable small businesses gain exposure online. We are coders. We are designers. We love open source. We have served our country and continue to serve. We are sacodersunited."
-          />
           <Values />
+        </Container>
 
           <section id="services" />
           <LeadParagraph
             title="Services"
             details="We offer a variety of solutions for all budgets. Whether it is a single page information site to a fully featured web application sacodersunited can make it happen."
           />
+          <Container>
           <Services />
+
+          </Container>
 
           <section id="team" />
           <LeadParagraph
@@ -39,7 +43,6 @@ class App extends Component {
 
           <section id="contact" />
           <Contact />
-        </Container>
         <Footer />
       </div>
     );
