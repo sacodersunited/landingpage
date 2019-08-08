@@ -1,11 +1,9 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import FaPaintBrush from "react-icons/lib/fa/paint-brush";
-import FaTrophy from "react-icons/lib/fa/trophy";
-import FaFirefox from "react-icons/lib/fa/firefox";
+import { FaTrophy, FaPaintBrush, FaFirefox } from "react-icons/fa";
 import styled from "styled-components";
 
-const Description = styled.p`
+const Description = styled.section`
   min-height: 130px;
   margin-top: 0;
   margin-bottom: 1rem;

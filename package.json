@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
     "react-scripts": "1.0.14"
   },
   "scripts": {
@@ -19,7 +20,6 @@
   "devDependencies": {
     "bootstrap": "4.0.0-beta",
     "gh-pages": "^1.0.0",
-    "react-icons": "^2.2.7",
     "reactstrap": "^5.0.0-alpha.3",
     "styled-components": "^4.0.0-beta.1-2"
   }

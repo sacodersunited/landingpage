@@ -21,18 +21,18 @@ const StyledJumbotron = styled(Jumbotron)`
   }
 `;
 
-const LeadParagraph = props => (
-  <StyledJumbotron fluid>
+const LeadParagraph = ({title, details}) => (
+  <StyledJumbotron className="mb-5 mt-5" fluid>
     <Container fluid>
     <Row className="justify-content-center">
       <Col xs="12" sm="10" lg="6">
-        <h1 className="text-center">{props.title}</h1>
+        <h1 className="text-center">{title}</h1>
         <Row className="justify-content-center">
           <Col xs="2">
             <hr className="thick-hr lead-p-hr" />
           </Col>
         </Row>
-        <p>{props.details}</p>
+        <p className="lead">{details}</p>
       </Col>
     </Row>
     </Container>

@@ -9,14 +9,15 @@ import {
   CardTitle,
   CardSubtitle
 } from "reactstrap";
-import styled from 'styled-components';
+import styled from "styled-components";
+import { FaTwitter, FaCloud } from "react-icons/fa";
 import frank from "../img/frank.jpg";
 import paul from "../img/paul.jpg";
 
 const ImgCardStyle = styled(CardImg)`
-  height: 340px;
+  height: 400px;
   object-fit: cover;
-`
+`;
 
 const Team = props => (
   <Row className="row justify-content-around">
@@ -33,7 +34,22 @@ const Team = props => (
             <CardSubtitle>@fpigeonjr</CardSubtitle>
           </a>
           <CardText>
-            U.S. Army veteran. Web Designer and Frontend Developer. Founder.
+            U.S. Army veteran. Web Designer and Web Developer. Founder.
+            <br /> <br />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/fpigeonjr"
+            >
+              <FaTwitter size="20" className="mr-3" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://frankpigeon.com"
+            >
+              <FaCloud size="20" />
+            </a>
           </CardText>
         </CardBody>
       </Card>
@@ -52,8 +68,14 @@ const Team = props => (
           </a>
           <CardText>
             U.S. Air Force veteran. Web Developer and Founder.
+            <br /> <br />
+            <a href="https://twitter.com/pcast01">
+              <FaTwitter size="20" className="mr-3" />
+            </a>
+            <a href="https://pcast01.github.io/">
+              <FaCloud size="20" />
+            </a>
           </CardText>
-
         </CardBody>
       </Card>
     </Col>
