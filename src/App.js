@@ -7,16 +7,16 @@ import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Container } from "reactstrap";
-import GlobalStyles from './GlobalStyles'
+import GlobalStyles from "./GlobalStyles";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <GlobalStyles/>
+        <GlobalStyles />
         <Header />
+        <section id="about" />
         <LeadParagraph
-          id="about"
           title="Who We Are"
           details="We build custom web solutions to enable small businesses gain exposure online. We are coders. We are designers. We love open source. We have served our country and continue to serve. We are sacodersunited."
         />
@@ -24,25 +24,24 @@ class App extends Component {
           <Values />
         </Container>
 
-          <section id="services" />
-          <LeadParagraph
-            title="Services"
-            details="We offer a variety of solutions for all budgets. Whether it is a single page information site to a fully featured web application sacodersunited can make it happen."
-          />
-          <Container>
+        <section id="services" />
+        <LeadParagraph
+          title="Services"
+          details="We offer a variety of solutions for all budgets. Whether it is a single page information site to a fully featured web application sacodersunited can make it happen."
+        />
+        <Container>
           <Services />
+        </Container>
 
-          </Container>
+        <section id="team" />
+        <LeadParagraph
+          title="Team"
+          details="Band members have a special bond. A great band is more than just some people working together. It's like a highly specialized army unit, or a winning sports team. A unique combination of elements that becomes stronger together than apart. - Steven Van Zandt"
+        />
+        <Team />
 
-          <section id="team" />
-          <LeadParagraph
-            title="Team"
-            details="Band members have a special bond. A great band is more than just some people working together. It's like a highly specialized army unit, or a winning sports team. A unique combination of elements that becomes stronger together than apart. - Steven Van Zandt"
-          />
-          <Team />
-
-          <section id="contact" />
-          <Contact />
+        <section id="contact" />
+        <Contact />
         <Footer />
       </div>
     );
