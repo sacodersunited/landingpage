@@ -23,6 +23,7 @@ const Team = props => (
   <Row className="row justify-content-around">
     <Col xs="10" md="4">
       <Card>
+        {/* todo: Fix images */}
         <ImgCardStyle top width="100%" src={frank} alt="Frank's profile" />
         <CardBody>
           <CardTitle>Frank Pigeon</CardTitle>
