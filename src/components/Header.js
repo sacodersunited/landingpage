@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 
 import styled from "styled-components";
-import flag from "../img/flag.png";
+// import flag from "../img/flag.png";
 import vidSrc from "../img/Flag Of USA.mp4";
 
 const fadedWhite = "rgba(255, 255, 255, 0.75)";
@@ -32,21 +32,6 @@ const StyledJumbotron = styled(Jumbotron)`
   }
 `;
 
-const Video = styled.video`
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 20%;
-  width: auto;
-  height: 200px;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-`;
-
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -65,9 +50,6 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {/* <Video loop autoPlay muted playsInline>
-          <source src={USFlagVid} type="video/mp4" />
-        </Video> */}
         <video
           id="video"
           autoPlay
@@ -86,10 +68,10 @@ class Header extends React.Component {
           <source src={vidSrc} type="video/mp4" />
         </video>
         <StyledJumbotron className="text-center flag-bg">
-          <h1 className="display-3">sacodersunited</h1>
+          <h1 className="display-3">SA Coders United</h1>
           <p className="lead">vets who code</p>
 
-          <Navbar color="faded" dark expand="md">
+          <Navbar color="faded" dark expand="md" style={{ zIndex: 1 }}>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>

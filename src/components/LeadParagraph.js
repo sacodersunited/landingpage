@@ -33,7 +33,7 @@ const LeadParagraph = ({ title, details }) => (
             </Col>
           </Row>
           {title === "Who We Are" ? (
-            <>
+            <div style={{ textAlign: "center" }}>
               <p className="lead">
                 We are a group of veterans who are passionate about technology.
               </p>
@@ -45,8 +45,8 @@ const LeadParagraph = ({ title, details }) => (
                 businesses.
               </p>
               <p className="lead">We are living the American dream.</p>
-              <p className="lead">We are SACodersUnited.</p>
-            </>
+              <p className="lead">We are SA Coders United.</p>
+            </div>
           ) : (
             <p className="lead">{details}</p>
           )}
