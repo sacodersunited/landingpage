@@ -80,18 +80,19 @@ class ContactForm extends React.Component {
         method: "post",
         headers: { "Content-Type": "application/x-www-form-urlencoded" }
       }
-    ).then(response => {
-      if (!response.ok) {
-        throw Error("Network request failed");
-      }
-      console.log(response);
-      return response;
-    }),
-      () => {
+    )
+      .then(response => {
+        if (!response.ok) {
+          throw Error("Network request failed");
+        }
+        console.log(response);
+        return response;
+      })
+      .then(() => {
         this.setState({
           requestFailed: true
         });
-      };
+      });
 
     if (!this.state.requestFailed) {
       this.setState({

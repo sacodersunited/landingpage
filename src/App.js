@@ -18,7 +18,7 @@ class App extends Component {
         <section id="about" />
         <LeadParagraph
           title="Who We Are"
-          details="We build custom web solutions to enable small businesses gain exposure online. We are coders. We are designers. We love open source. We have served our country and continue to serve. We are sacodersunited."
+          details="We are a group of veterans who are passionate about technology. We are programmers and designers who never stop learning. As veterans, we strive to provide superior service to American businesses. We are living the American dream. We are SACodersUnited."
         />
         <Container>
           <Values />

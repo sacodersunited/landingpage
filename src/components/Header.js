@@ -11,15 +11,15 @@ import {
 
 import styled from "styled-components";
 import flag from "../img/flag.png";
-// import USFlagVid from "../img/us-flag.mp4";
+import vidSrc from "../img/Flag Of USA.mp4";
 
 const fadedWhite = "rgba(255, 255, 255, 0.75)";
 
 const StyledJumbotron = styled(Jumbotron)`
   margin-bottom: 0;
-  background-image: url(${flag});
   background-size: cover;
   color: ${fadedWhite};
+  background-color: #425173;
   h1 {
     color: white;
   }
@@ -68,7 +68,26 @@ class Header extends React.Component {
         {/* <Video loop autoPlay muted playsInline>
           <source src={USFlagVid} type="video/mp4" />
         </Video> */}
+        <video
+          id="video"
+          autoPlay
+          loop
+          muted
+          style={{
+            position: "absolute",
+            zIndex: 1,
+            top: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: 0.5
+          }}
+        >
+          <source src={vidSrc} type="video/mp4" />
+        </video>
         <StyledJumbotron className="text-center flag-bg">
+          {/* <Jumbotron> */}
+
           <h1 className="display-3">sacodersunited</h1>
           <p className="lead">vets who code</p>
 
@@ -92,6 +111,7 @@ class Header extends React.Component {
             </Collapse>
           </Navbar>
         </StyledJumbotron>
+        {/* </Jumbotron> */}
       </React.Fragment>
     );
   }
