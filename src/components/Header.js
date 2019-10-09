@@ -86,8 +86,6 @@ class Header extends React.Component {
           <source src={vidSrc} type="video/mp4" />
         </video>
         <StyledJumbotron className="text-center flag-bg">
-          {/* <Jumbotron> */}
-
           <h1 className="display-3">sacodersunited</h1>
           <p className="lead">vets who code</p>
 
@@ -111,7 +109,6 @@ class Header extends React.Component {
             </Collapse>
           </Navbar>
         </StyledJumbotron>
-        {/* </Jumbotron> */}
       </React.Fragment>
     );
   }

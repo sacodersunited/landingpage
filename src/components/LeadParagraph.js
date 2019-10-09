@@ -32,7 +32,24 @@ const LeadParagraph = ({ title, details }) => (
               <hr className="thick-hr lead-p-hr" />
             </Col>
           </Row>
-          <p className="lead">{details}</p>
+          {title === "Who We Are" ? (
+            <>
+              <p className="lead">
+                We are a group of veterans who are passionate about technology.
+              </p>
+              <p className="lead">
+                We are programmers and designers who never stop learning.
+              </p>
+              <p className="lead">
+                As veterans, we strive to provide superior service to American
+                businesses.
+              </p>
+              <p className="lead">We are living the American dream.</p>
+              <p className="lead">We are SACodersUnited.</p>
+            </>
+          ) : (
+            <p className="lead">{details}</p>
+          )}
         </Col>
       </Row>
     </Container>

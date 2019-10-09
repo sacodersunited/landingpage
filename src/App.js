@@ -16,10 +16,7 @@ class App extends Component {
         <GlobalStyles />
         <Header />
         <section id="about" />
-        <LeadParagraph
-          title="Who We Are"
-          details="We are a group of veterans who are passionate about technology. We are programmers and designers who never stop learning. As veterans, we strive to provide superior service to American businesses. We are living the American dream. We are SACodersUnited."
-        />
+        <LeadParagraph title="Who We Are" details="" />
         <Container>
           <Values />
         </Container>
