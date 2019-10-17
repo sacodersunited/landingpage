@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import Header from "./components/Header";
-import LeadParagraph from "./components/LeadParagraph";
-import Values from "./components/Values";
-import Services from "./components/Services";
-import Team from "./components/Team";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { Container } from "reactstrap";
-import GlobalStyles from "./GlobalStyles";
+import React, { Component } from 'react'
+import Header from './components/Header'
+import LeadParagraph from './components/LeadParagraph'
+import Values from './components/Values'
+import Services from './components/Services'
+import Team from './components/Team'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import { Container } from 'reactstrap'
+import GlobalStyles from './GlobalStyles'
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <GlobalStyles />
         <Header />
-        <section id="about" />
+        <section id="about" style={{ marginTop: '0' }} />
         <LeadParagraph title="Who We Are" details="" />
         <Container>
           <Values />
@@ -41,8 +41,8 @@ class App extends Component {
         <Contact />
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

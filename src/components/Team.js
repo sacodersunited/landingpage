@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Row,
   Col,
@@ -8,20 +8,20 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle
-} from "reactstrap";
-import styled from "styled-components";
-import { FaTwitter, FaCloud } from "react-icons/fa";
-import frank from "../img/frank.jpg";
-import paul from "../img/paul.jpg";
+} from 'reactstrap'
+import styled from 'styled-components'
+import { FaTwitter, FaCloud } from 'react-icons/fa'
+import frank from '../img/frank.jpg'
+import paul from '../img/paul.jpg'
 
 const ImgCardStyle = styled(CardImg)`
-  height: 400px;
+  height: 360px;
   object-fit: cover;
-`;
+`
 
 const Team = props => (
   <Row className="row justify-content-around">
-    <Col xs="10" md="4">
+    <Col xs="10" md="3">
       <Card>
         {/* todo: Fix images */}
         <ImgCardStyle top width="100%" src={frank} alt="Frank's profile" />
@@ -55,7 +55,7 @@ const Team = props => (
         </CardBody>
       </Card>
     </Col>
-    <Col xs="10" md="4">
+    <Col xs="10" md="3">
       <Card>
         <ImgCardStyle top width="100%" src={paul} alt="Paul's profile" />
         <CardBody>
@@ -89,6 +89,6 @@ const Team = props => (
       </Card>
     </Col>
   </Row>
-);
+)
 
-export default Team;
+export default Team

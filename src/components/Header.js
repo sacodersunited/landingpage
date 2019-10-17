@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Jumbotron,
   Collapse,
@@ -7,19 +7,36 @@ import {
   Nav,
   NavItem,
   NavLink
-} from "reactstrap";
+} from 'reactstrap'
 
-import styled from "styled-components";
+import styled from 'styled-components'
 // import flag from "../img/flag.png";
-import vidSrc from "../img/Flag Of USA.mp4";
+import vidSrc from '../img/Flag Of USA.mp4'
 
-const fadedWhite = "rgba(255, 255, 255, 0.75)";
+const StyledVideoBG = styled.video`
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  height: 40vh;
+  object-fit: cover;
+  opacity: 0.5;
+  @media (max-width: 575.98px) {
+    height: 100vh;
+  }
+`
 
 const StyledJumbotron = styled(Jumbotron)`
   margin-bottom: 0;
   background-size: cover;
-  color: ${fadedWhite};
+  color: white;
   background-color: #425173;
+  position: relative;
+  height: 40vh;
+  z-index: 100;
+  opacity: 1 !important;
   h1 {
     color: white;
   }
@@ -30,44 +47,30 @@ const StyledJumbotron = styled(Jumbotron)`
       line-height: 1.2;
     }
   }
-`;
+`
 
 class Header extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
-    this.toggle = this.toggle.bind(this);
+    this.toggle = this.toggle.bind(this)
     this.state = {
       isOpen: false
-    };
+    }
   }
 
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
-    });
+    })
   }
   render() {
     return (
-      <React.Fragment>
-        <video
-          id="video"
-          autoPlay
-          loop
-          muted
-          style={{
-            position: "absolute",
-            zIndex: 1,
-            top: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            opacity: 0.5
-          }}
-        >
-          <source src={vidSrc} type="video/mp4" />
-        </video>
+      <>
         <StyledJumbotron className="text-center flag-bg">
+          <StyledVideoBG id="video" autoPlay loop muted>
+            <source src={vidSrc} type="video/mp4" />
+          </StyledVideoBG>
           <h1 className="display-3">SA Coders United</h1>
           <p className="lead">vets who code</p>
 
@@ -91,8 +94,8 @@ class Header extends React.Component {
             </Collapse>
           </Navbar>
         </StyledJumbotron>
-      </React.Fragment>
-    );
+      </>
+    )
   }
 }
-export default Header;
+export default Header

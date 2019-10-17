@@ -1,6 +1,6 @@
-import React from "react";
-import { Row, Col, Jumbotron, Container } from "reactstrap";
-import styled from "styled-components";
+import React from 'react'
+import { Row, Col, Jumbotron, Container } from 'reactstrap'
+import styled from 'styled-components'
 
 const StyledJumbotron = styled(Jumbotron)`
   background: #141e30; /* fallback for old browsers */
@@ -19,10 +19,10 @@ const StyledJumbotron = styled(Jumbotron)`
   h1 {
     color: white;
   }
-`;
+`
 
 const LeadParagraph = ({ title, details }) => (
-  <StyledJumbotron className="mb-5 mt-5" fluid>
+  <StyledJumbotron className="mb-5" fluid>
     <Container fluid>
       <Row className="justify-content-center">
         <Col xs="12" sm="10" lg="6">
@@ -32,8 +32,8 @@ const LeadParagraph = ({ title, details }) => (
               <hr className="thick-hr lead-p-hr" />
             </Col>
           </Row>
-          {title === "Who We Are" ? (
-            <div style={{ textAlign: "center" }}>
+          {title === 'Who We Are' ? (
+            <div style={{ textAlign: 'center' }}>
               <p className="lead">
                 We are a group of veterans who are passionate about technology.
               </p>
@@ -54,6 +54,6 @@ const LeadParagraph = ({ title, details }) => (
       </Row>
     </Container>
   </StyledJumbotron>
-);
+)
 
-export default LeadParagraph;
+export default LeadParagraph
