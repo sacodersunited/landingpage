@@ -25,7 +25,7 @@ class App extends Component {
         <LeadParagraph
           title="Services"
           details="
-          We offer a variety of solutions to fit your budget. After we have reviewed your request, we will provide you with three options: Basic, Moderate, and Advanced. Each tier will provide a way to meet your needs without exceeding your budget.  Whether it is a single page information site or a fully featured web application, SA Coders United can make it happen."
+          We offer a variety of solutions to fit your budget. After we have reviewed your request, we will provide you with three options. Each tier will provide a way to meet your needs without exceeding your budget.  Whether it is a single page information site or a fully featured web application, SA Coders United can make it happen."
         />
         <Container>
           <Services />
