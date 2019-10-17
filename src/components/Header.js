@@ -23,9 +23,6 @@ const StyledVideoBG = styled.video`
   height: 40vh;
   object-fit: cover;
   opacity: 0.5;
-  @media (max-width: 575.98px) {
-    height: 100vh;
-  }
 `
 
 const StyledJumbotron = styled(Jumbotron)`
