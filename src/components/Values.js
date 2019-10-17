@@ -12,7 +12,7 @@ const Values = () => (
       <p>
         People who develop the habit of being honorable solidify that habit with
         every value choice they make. Honor is a matter of carrying out, acting,
-        and living these values everday. To us at sacodersunited, Honor is one
+        and living these values everday. To us at SA Coders United, Honor is one
         of our highest values.
       </p>
     </Col>
@@ -37,8 +37,8 @@ const Values = () => (
       </h4>
       <p>
         Bearing true faith and allegiance is a matter of believing in and
-        devoting yourself to something or someone. Sacodersunited will be loyal
-        to you and your project. We will see it to the end.
+        devoting yourself to something or someone. SA Coders United will be
+        loyal to you and your project. We will see it to the end.
       </p>
     </Col>
 
@@ -49,8 +49,8 @@ const Values = () => (
       </h4>
       <p>
         Fulfill your obligations. Duty means being able to accomplish tasks as
-        part of a team. Sacodersunited is one team and each of us has something
-        to contribute.
+        part of a team. SA Coders United is one team and each of us has
+        something to contribute.
       </p>
     </Col>
   </Row>
