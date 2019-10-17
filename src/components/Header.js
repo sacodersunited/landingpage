@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Jumbotron,
   Collapse,
@@ -7,11 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink
-} from 'reactstrap'
+} from "reactstrap";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 // import flag from "../img/flag.png";
-import vidSrc from '../img/Flag Of USA.mp4'
+import vidSrc from "../img/Flag Of USA.mp4";
 
 const StyledVideoBG = styled.video`
   position: absolute;
@@ -23,10 +23,7 @@ const StyledVideoBG = styled.video`
   height: 40vh;
   object-fit: cover;
   opacity: 0.5;
-  @media (max-width: 575.98px) {
-    height: 100vh;
-  }
-`
+`;
 
 const StyledJumbotron = styled(Jumbotron)`
   margin-bottom: 0;
@@ -47,22 +44,22 @@ const StyledJumbotron = styled(Jumbotron)`
       line-height: 1.2;
     }
   }
-`
+`;
 
 class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.toggle = this.toggle.bind(this)
+    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
-    }
+    };
   }
 
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
-    })
+    });
   }
   render() {
     return (
@@ -95,7 +92,7 @@ class Header extends React.Component {
           </Navbar>
         </StyledJumbotron>
       </>
-    )
+    );
   }
 }
-export default Header
+export default Header;

@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
-import Header from './components/Header'
-import LeadParagraph from './components/LeadParagraph'
-import Values from './components/Values'
-import Services from './components/Services'
-import Team from './components/Team'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import { Container } from 'reactstrap'
-import GlobalStyles from './GlobalStyles'
+import React, { Component } from "react";
+import Header from "./components/Header";
+import LeadParagraph from "./components/LeadParagraph";
+import Values from "./components/Values";
+import Services from "./components/Services";
+import Team from "./components/Team";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Container } from "reactstrap";
+import GlobalStyles from "./GlobalStyles";
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <GlobalStyles />
         <Header />
-        <section id="about" style={{ marginTop: '0' }} />
+        <section id="about" style={{ marginTop: "0" }} />
         <LeadParagraph title="Who We Are" details="" />
         <Container>
           <Values />
@@ -24,7 +24,8 @@ class App extends Component {
         <section id="services" />
         <LeadParagraph
           title="Services"
-          details="We offer a variety of solutions for all budgets. Whether it is a single page information site to a fully featured web application sacodersunited can make it happen."
+          details="
+          We offer a variety of solutions to fit your budget. After we have reviewed your request, we will provide you with three options: Basic, Moderate, and Advanced. Each tier will provide a way to meet your needs without exceeding your budget.  Whether it is a single page information site or a fully featured web application, SA Coders United can make it happen."
         />
         <Container>
           <Services />
@@ -41,8 +42,8 @@ class App extends Component {
         <Contact />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

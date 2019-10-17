@@ -109,7 +109,7 @@ class ContactForm extends React.Component {
   render() {
     if (this.state.requestFailed) return <p>Failed!</p>;
     const { name, message, email } = this.state;
-    console.log(this.message);
+    // console.log(this.message);
 
     return (
       <Form id="gform" onSubmit={this.handleSubmit}>
