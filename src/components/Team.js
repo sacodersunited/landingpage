@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Row,
   Col,
@@ -8,16 +8,17 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle
-} from 'reactstrap'
-import styled from 'styled-components'
-import { FaTwitter, FaCloud } from 'react-icons/fa'
-import frank from '../img/frank.jpg'
-import paul from '../img/paul.jpg'
+} from "reactstrap";
+import styled from "styled-components";
+import { FaTwitter, FaCloud } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import frank from "../img/frank.jpg";
+import paul from "../img/paul.jpg";
 
 const ImgCardStyle = styled(CardImg)`
   height: 360px;
   object-fit: cover;
-`
+`;
 
 const Team = props => (
   <Row className="row justify-content-around">
@@ -49,7 +50,14 @@ const Team = props => (
               rel="noopener noreferrer"
               href="https://frankpigeon.com"
             >
-              <FaCloud size="20" />
+              <FaCloud size="20" className="mr-3" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:frank@sacodersunited.com"
+            >
+              <MdEmail size="20" className="mr-3" />
             </a>
           </CardText>
         </CardBody>
@@ -70,6 +78,7 @@ const Team = props => (
           <CardText>
             U.S. Air Force veteran. Web Developer and Founder.
             <br /> <br />
+            <br></br>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -80,15 +89,22 @@ const Team = props => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://pcast01.github.io/"
+              href="https://azraelsdomain.tech"
             >
-              <FaCloud size="20" />
+              <FaCloud size="20" className="mr-3" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:paul@sacodersunited.com"
+            >
+              <MdEmail size="20" className="mr-3" />
             </a>
           </CardText>
         </CardBody>
       </Card>
     </Col>
   </Row>
-)
+);
 
-export default Team
+export default Team;
