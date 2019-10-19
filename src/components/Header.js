@@ -82,6 +82,9 @@ class Header extends React.Component {
                   <NavLink href="#services">Services</NavLink>
                 </NavItem>
                 <NavItem>
+                  <NavLink href="#tiers">Tiers</NavLink>
+                </NavItem>
+                <NavItem>
                   <NavLink href="#team">Team</NavLink>
                 </NavItem>
                 <NavItem>

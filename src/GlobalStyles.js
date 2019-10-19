@@ -1,4 +1,4 @@
-import { createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   : root {
@@ -40,6 +40,18 @@ const GlobalStyles = createGlobalStyle`
     border-top: 3px solid rgba(0, 0, 0, 0.1);
   }
 
+  .bronze-hr {
+    border-top: 3px solid rgba(241, 111, 35, 1);
+  }
+
+  .silver-hr {
+    border-top: 3px solid rgba(177, 180, 181, 1);
+  }
+
+  .moh-hr {
+    border-top: 3px solid rgba(6, 36, 247, 1);
+  }
+  
   .btn-primary{
     background-color: var(--blue);
     cursor: pointer;

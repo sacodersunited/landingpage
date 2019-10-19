@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Container } from "reactstrap";
 import GlobalStyles from "./GlobalStyles";
+import Tiers from "./components/Tiers";
 
 class App extends Component {
   render() {
@@ -22,13 +23,20 @@ class App extends Component {
         </Container>
 
         <section id="services" />
-        <LeadParagraph
-          title="Services"
-          details="
-          We offer a variety of solutions to fit your budget. After we have reviewed your request, we will provide you with three options. Each tier will provide a way to meet your needs without exceeding your budget.  Whether it is a single page information site or a fully featured web application, SA Coders United can make it happen!!!"
-        />
+        <LeadParagraph title="What We Offer" details="" />
+
         <Container>
           <Services />
+        </Container>
+
+        <section id="tiers" />
+        <LeadParagraph
+          title="Tiers"
+          details="After we have reviewed your request, we will provide you with three options. Each tier will provide a way to meet your needs without exceeding your budget.  Whether it is a single page information site or a fully featured web application, SA Coders United can make it happen."
+        />
+
+        <Container>
+          <Tiers />
         </Container>
 
         <section id="team" />
