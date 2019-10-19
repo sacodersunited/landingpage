@@ -5,7 +5,8 @@ import { FaCopyright } from "react-icons/fa";
 const Footer = () => (
   <Navbar className="navbar-light bg-light">
     <NavbarBrand>
-      <FaCopyright style={{ verticalAlign: "middle" }} /> sacodersunited 2019
+      <FaCopyright style={{ verticalAlign: "middle" }} /> sacodersunited{" "}
+      {new Date().getFullYear()}
     </NavbarBrand>
   </Navbar>
 );

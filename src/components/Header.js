@@ -10,7 +10,6 @@ import {
 } from "reactstrap";
 
 import styled from "styled-components";
-// import flag from "../img/flag.png";
 import vidSrc from "../img/Flag Of USA.mp4";
 
 const StyledVideoBG = styled.video`
@@ -68,7 +67,9 @@ class Header extends React.Component {
           <StyledVideoBG id="video" autoPlay loop muted>
             <source src={vidSrc} type="video/mp4" />
           </StyledVideoBG>
-          <h1 className="display-3">SA Coders United</h1>
+          <a href="/">
+            <h1 className="display-3">SA Coders United</h1>
+          </a>
           <p className="lead">vets who code</p>
 
           <Navbar color="faded" dark expand="md" style={{ zIndex: 1 }}>
