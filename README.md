@@ -1,6 +1,6 @@
 # Landing page for [sacodersunited.com](sacodersunited.com)
 
-![SACoderUnited](https://github.com/sacodersunited/landingpage/netlify/public/sacodersunited.gif)
+![SACoderUnited](https://i.imgur.com/nDpFrP2.gifv)
 
 ## Project Details
 
