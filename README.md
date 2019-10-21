@@ -1,5 +1,7 @@
 # Landing page for [sacodersunited.com](sacodersunited.com)
 
+![SACoderUnited](https://github.com/sacodersunited/landingpage/netlify/public/sacodersunited.gif)
+
 ## Project Details
 
 `ContactForm` posts to this [Google Sheet](https://docs.google.com/spreadsheets/d/13YyzPiLIGZp2vFUpWeHeLiLIb0VfpBV8mlv6r2B5Q3g/edit#gid=0)
