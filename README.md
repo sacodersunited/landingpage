@@ -1,6 +1,6 @@
 # Landing page for [sacodersunited.com](sacodersunited.com)
 
-![SACoderUnited](https://i.imgur.com/nDpFrP2.gif)
+![SACoderUnited](public/sacodersunited.gif)
 
 ## Project Details
 
